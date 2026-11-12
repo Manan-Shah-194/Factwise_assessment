@@ -7,11 +7,11 @@ exports are written to `out/`.
 
 ## Current status
 
-Phase 4 is complete: the project now has concrete user and team APIs. The team
-API supports team CRUD, admin validation, membership management, the 50-user
-request limit, and team-user listing. Team admins are automatically added as
-members when a team is created, so the admin is also visible through the team
-membership API.
+Phase 6 is complete: the project now has concrete user, team, board, and task
+APIs, plus readable board exports. `export_board` writes a text report to
+`out/` containing the board, team, status, timestamps, and task details.
+`add_task` accepts the required `board_id` field in addition to the fields shown
+in the original brief.
 
 ## Setup
 
