@@ -13,7 +13,7 @@ Create a module for concrete implementation of these base classes extending the 
 * Every API needs to adhere to the constraints and raise exceptions for invalid inputs.
 * The method doc, will include some additional requirements specific to the method.
 
-The complete APIs must be implemented as part of the project
+The complete APIs must be implemented as part of the project and **Django** should be used to build the tool.
 
 ### Persistence
 The application should use the local file storage for persistence.  
