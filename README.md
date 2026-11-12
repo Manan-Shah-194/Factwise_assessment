@@ -7,10 +7,11 @@ exports are written to `out/`.
 
 ## Current status
 
-Phase 2 is complete: the project now has persistent User, Team, membership,
-Board, and Task models, shared request validation, JSON helpers, planner
-exceptions, transaction support, and initial model tests. Concrete API methods
-will be added in the next phases.
+Phase 4 is complete: the project now has concrete user and team APIs. The team
+API supports team CRUD, admin validation, membership management, the 50-user
+request limit, and team-user listing. Team admins are automatically added as
+members when a team is created, so the admin is also visible through the team
+membership API.
 
 ## Setup
 
